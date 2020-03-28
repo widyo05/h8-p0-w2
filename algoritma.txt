@@ -1,0 +1,81 @@
+algoritma & pseudocode
+
+Algoritma soal 1:
+
+1. Buat variabel sigmaF
+2. Buat variabel m
+3. Buat variabel a
+4. Beri nilai ke variabel m = 600
+5. Beri nilai ke variabel a = 2
+6. Hitung sigmaF = m * a
+7. tampilkan hasil sigmaF
+
+Pseudocode soal 1:
+
+1. STORE "massa" with any value
+2. STORE "percepatan" with any value
+3. STORE "resultan" without any value
+4. CALCULATE "massa" times "percepatan"
+5. SET "resultan" with calculation result
+6. DISPLAY "resultan"
+
+
+
+Algoritma soal 2:
+
+1. Buat variabel tahun
+2. Inputkan nilai ke dalam variabel tahun
+3. if tahun tahun modulus 4 sisa 0 && tahun modulus 100 != 0
+4. cetak tahun kabisat
+5. else if tahun%4 == 0 && tahun%100 == 0 && tahun%400 ==0
+6. cetak tahun kabisat
+7. else cetak bukan tahun kabisat
+
+Pseudocode soal 2:
+
+1. STORE tahun with any value
+2. IF tahun % 4==0 AND tahun % 100 != 0
+3. DISPLAY "tahun kabisat"
+4. ELSE IF tahun % 4 == 0 AND tahun % 100 == 0 AND tahun % 400 == 0
+5. DISPLAY "tahun kabisat"
+6. ELSE 
+7. DISPLAY "bukan tahun kabisat"
+
+
+
+Algoritma soal 3:
+1. Buat variabel jumlahPakaian
+2. input nilai 20 ke dalam variabel jumlahPakaian
+3. for jumlahPakaian = 0 dan jumlahPakaian <= 20 maka jumlahPakaian + 1
+4. setelah jumlahPakaian = 20
+5. Mesin Cuci dinyalakan
+
+Pseudocode soal 3:
+
+1. STORE "jumlahPakaian" to 1
+2. WHILE "jumlahPakaian" <= 20
+3. DISPLAY "jumlahPakaian"
+4. IF jumlahPakaian = 20
+5. DISPLAY Mesin Cuci Berjalan
+
+
+
+
+Algoritma Soal 4:
+1. Buat variabel jumlahSiswa
+2. Input nilai 40 ke dalam variabel jumlahSiswa
+3. Buat variabel kukuPanjang
+4. lakukan pemeriksaan dari siswa pertama sampai siswa ke 40
+5. jika ditemukan siswa berkuku panjang
+6. maka guru marah
+7. jika kukuPanjang bernilai 0
+8. maka guru akan memberi pujian
+
+Pseudocode Soal 4:
+1. STORE "jumlahSiswa" to 1
+2. STORE "kukuPanjang" to 0
+3. WHILE "jumlahSiswa" <= 40
+4. IF "kukuPanjang" < 0
+5. DISPLAY "Guru Marah"
+6. ELSE 
+7. DISPLAY "Guru Memberi Pujian"
